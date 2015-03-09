@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306D5015118A46008ABF18B1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD5D80E44EF466493BDA3C6 /* libPods.a */; };
+		CD8881DE19920BEE00DF4BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8881DD19920BEE00DF4BC0 /* Foundation.framework */; };
+		CD8881E019920BEE00DF4BC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8881DF19920BEE00DF4BC0 /* CoreGraphics.framework */; };
+		CD8881E219920BEE00DF4BC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8881E119920BEE00DF4BC0 /* UIKit.framework */; };
+		CD8881E819920BEE00DF4BC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8881E619920BEE00DF4BC0 /* InfoPlist.strings */; };
+		CD8881EA19920BEE00DF4BC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8881E919920BEE00DF4BC0 /* main.m */; };
+		CD8881EE19920BEE00DF4BC0 /* NCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8881ED19920BEE00DF4BC0 /* NCAppDelegate.m */; };
+		CD8881F019920BEE00DF4BC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8881EF19920BEE00DF4BC0 /* Images.xcassets */; };
+		CD8881F719920BEE00DF4BC0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8881F619920BEE00DF4BC0 /* XCTest.framework */; };
+		CD8881F819920BEE00DF4BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8881DD19920BEE00DF4BC0 /* Foundation.framework */; };
+		CD8881F919920BEE00DF4BC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8881E119920BEE00DF4BC0 /* UIKit.framework */; };
+		CD88820119920BEE00DF4BC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8881FF19920BEE00DF4BC0 /* InfoPlist.strings */; };
+		CD88820319920BEE00DF4BC0 /* NotesAppHikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88820219920BEE00DF4BC0 /* NotesAppHikeTests.m */; };
+		CD88821319920ED800DF4BC0 /* NCNotesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88821219920ED800DF4BC0 /* NCNotesListViewController.m */; };
+		CD8882161992108500DF4BC0 /* NCColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8882151992108500DF4BC0 /* NCColors.m */; };
+		CD88821C199213F800DF4BC0 /* NCNoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88821B199213F800DF4BC0 /* NCNoteObject.m */; };
+		CD88821F199215B400DF4BC0 /* NCNotesListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88821E199215B400DF4BC0 /* NCNotesListCell.m */; };
+		CD888223199217D500DF4BC0 /* UIFont+NCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD888222199217D500DF4BC0 /* UIFont+NCAdditions.m */; };
+		CD88822619921F5F00DF4BC0 /* NCCreateEditNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88822519921F5F00DF4BC0 /* NCCreateEditNoteController.m */; };
+		CD88822919922CB100DF4BC0 /* NCDBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88822819922CB100DF4BC0 /* NCDBHandler.m */; };
+		CD88822D1992334B00DF4BC0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD88822C1992334B00DF4BC0 /* libsqlite3.dylib */; };
+		CD88823019923E2900DF4BC0 /* NCReadOnlyController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88822F19923E2900DF4BC0 /* NCReadOnlyController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8881FA19920BEE00DF4BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8881D219920BEE00DF4BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8881D919920BEE00DF4BC0;
+			remoteInfo = NotesAppHike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CD5D80E44EF466493BDA3C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		812F609DABFC42CCA2301897 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CD8881DA19920BEE00DF4BC0 /* NotesAppHike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesAppHike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8881DD19920BEE00DF4BC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD8881DF19920BEE00DF4BC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD8881E119920BEE00DF4BC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD8881E519920BEE00DF4BC0 /* NotesAppHike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotesAppHike-Info.plist"; sourceTree = "<group>"; };
+		CD8881E719920BEE00DF4BC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD8881E919920BEE00DF4BC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD8881EB19920BEE00DF4BC0 /* NotesAppHike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotesAppHike-Prefix.pch"; sourceTree = "<group>"; };
+		CD8881EC19920BEE00DF4BC0 /* NCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCAppDelegate.h; sourceTree = "<group>"; };
+		CD8881ED19920BEE00DF4BC0 /* NCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAppDelegate.m; sourceTree = "<group>"; };
+		CD8881EF19920BEE00DF4BC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD8881F519920BEE00DF4BC0 /* NotesAppHikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesAppHikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8881F619920BEE00DF4BC0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD8881FE19920BEE00DF4BC0 /* NotesAppHikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotesAppHikeTests-Info.plist"; sourceTree = "<group>"; };
+		CD88820019920BEE00DF4BC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD88820219920BEE00DF4BC0 /* NotesAppHikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesAppHikeTests.m; sourceTree = "<group>"; };
+		CD88821119920ED800DF4BC0 /* NCNotesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCNotesListViewController.h; sourceTree = "<group>"; };
+		CD88821219920ED800DF4BC0 /* NCNotesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCNotesListViewController.m; sourceTree = "<group>"; };
+		CD8882141992108500DF4BC0 /* NCColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCColors.h; sourceTree = "<group>"; };
+		CD8882151992108500DF4BC0 /* NCColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCColors.m; sourceTree = "<group>"; };
+		CD888217199212F500DF4BC0 /* NCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMacros.h; sourceTree = "<group>"; };
+		CD88821A199213F800DF4BC0 /* NCNoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCNoteObject.h; sourceTree = "<group>"; };
+		CD88821B199213F800DF4BC0 /* NCNoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCNoteObject.m; sourceTree = "<group>"; };
+		CD88821D199215B400DF4BC0 /* NCNotesListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCNotesListCell.h; sourceTree = "<group>"; };
+		CD88821E199215B400DF4BC0 /* NCNotesListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCNotesListCell.m; sourceTree = "<group>"; };
+		CD888221199217D500DF4BC0 /* UIFont+NCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NCAdditions.h"; sourceTree = "<group>"; };
+		CD888222199217D500DF4BC0 /* UIFont+NCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NCAdditions.m"; sourceTree = "<group>"; };
+		CD88822419921F5F00DF4BC0 /* NCCreateEditNoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCCreateEditNoteController.h; sourceTree = "<group>"; };
+		CD88822519921F5F00DF4BC0 /* NCCreateEditNoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCreateEditNoteController.m; sourceTree = "<group>"; };
+		CD88822719922CB100DF4BC0 /* NCDBHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCDBHandler.h; sourceTree = "<group>"; };
+		CD88822819922CB100DF4BC0 /* NCDBHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCDBHandler.m; sourceTree = "<group>"; };
+		CD88822A1992334200DF4BC0 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		CD88822C1992334B00DF4BC0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CD88822E19923E2900DF4BC0 /* NCReadOnlyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCReadOnlyController.h; sourceTree = "<group>"; };
+		CD88822F19923E2900DF4BC0 /* NCReadOnlyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCReadOnlyController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8881D719920BEE00DF4BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD88822D1992334B00DF4BC0 /* libsqlite3.dylib in Frameworks */,
+				CD8881E019920BEE00DF4BC0 /* CoreGraphics.framework in Frameworks */,
+				CD8881E219920BEE00DF4BC0 /* UIKit.framework in Frameworks */,
+				CD8881DE19920BEE00DF4BC0 /* Foundation.framework in Frameworks */,
+				306D5015118A46008ABF18B1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8881F219920BEE00DF4BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8881F719920BEE00DF4BC0 /* XCTest.framework in Frameworks */,
+				CD8881F919920BEE00DF4BC0 /* UIKit.framework in Frameworks */,
+				CD8881F819920BEE00DF4BC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8881D119920BEE00DF4BC0 = {
+			isa = PBXGroup;
+			children = (
+				CD8881E319920BEE00DF4BC0 /* NotesAppHike */,
+				CD8881FC19920BEE00DF4BC0 /* NotesAppHikeTests */,
+				CD8881DC19920BEE00DF4BC0 /* Frameworks */,
+				CD8881DB19920BEE00DF4BC0 /* Products */,
+				812F609DABFC42CCA2301897 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8881DB19920BEE00DF4BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8881DA19920BEE00DF4BC0 /* NotesAppHike.app */,
+				CD8881F519920BEE00DF4BC0 /* NotesAppHikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8881DC19920BEE00DF4BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD88822C1992334B00DF4BC0 /* libsqlite3.dylib */,
+				CD88822A1992334200DF4BC0 /* libsqlite3.0.dylib */,
+				CD8881DD19920BEE00DF4BC0 /* Foundation.framework */,
+				CD8881DF19920BEE00DF4BC0 /* CoreGraphics.framework */,
+				CD8881E119920BEE00DF4BC0 /* UIKit.framework */,
+				CD8881F619920BEE00DF4BC0 /* XCTest.framework */,
+				1CD5D80E44EF466493BDA3C6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD8881E319920BEE00DF4BC0 /* NotesAppHike */ = {
+			isa = PBXGroup;
+			children = (
+				CD8882201992178800DF4BC0 /* Categories */,
+				CD88821019920EAF00DF4BC0 /* Utils */,
+				CD88820F19920EA300DF4BC0 /* Models */,
+				CD88820E19920E9E00DF4BC0 /* Cells */,
+				CD88820D19920E9700DF4BC0 /* Views */,
+				CD88820C19920E8F00DF4BC0 /* Controllers */,
+				CD8881EC19920BEE00DF4BC0 /* NCAppDelegate.h */,
+				CD8881ED19920BEE00DF4BC0 /* NCAppDelegate.m */,
+				CD8881EF19920BEE00DF4BC0 /* Images.xcassets */,
+				CD8881E419920BEE00DF4BC0 /* Supporting Files */,
+			);
+			path = NotesAppHike;
+			sourceTree = "<group>";
+		};
+		CD8881E419920BEE00DF4BC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8881E519920BEE00DF4BC0 /* NotesAppHike-Info.plist */,
+				CD8881E619920BEE00DF4BC0 /* InfoPlist.strings */,
+				CD8881E919920BEE00DF4BC0 /* main.m */,
+				CD8881EB19920BEE00DF4BC0 /* NotesAppHike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8881FC19920BEE00DF4BC0 /* NotesAppHikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD88820219920BEE00DF4BC0 /* NotesAppHikeTests.m */,
+				CD8881FD19920BEE00DF4BC0 /* Supporting Files */,
+			);
+			path = NotesAppHikeTests;
+			sourceTree = "<group>";
+		};
+		CD8881FD19920BEE00DF4BC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8881FE19920BEE00DF4BC0 /* NotesAppHikeTests-Info.plist */,
+				CD8881FF19920BEE00DF4BC0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD88820C19920E8F00DF4BC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD88821119920ED800DF4BC0 /* NCNotesListViewController.h */,
+				CD88821219920ED800DF4BC0 /* NCNotesListViewController.m */,
+				CD88822419921F5F00DF4BC0 /* NCCreateEditNoteController.h */,
+				CD88822519921F5F00DF4BC0 /* NCCreateEditNoteController.m */,
+				CD88822E19923E2900DF4BC0 /* NCReadOnlyController.h */,
+				CD88822F19923E2900DF4BC0 /* NCReadOnlyController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CD88820D19920E9700DF4BC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CD88820E19920E9E00DF4BC0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CD88821D199215B400DF4BC0 /* NCNotesListCell.h */,
+				CD88821E199215B400DF4BC0 /* NCNotesListCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CD88820F19920EA300DF4BC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD88821A199213F800DF4BC0 /* NCNoteObject.h */,
+				CD88821B199213F800DF4BC0 /* NCNoteObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CD88821019920EAF00DF4BC0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CD8882141992108500DF4BC0 /* NCColors.h */,
+				CD8882151992108500DF4BC0 /* NCColors.m */,
+				CD888217199212F500DF4BC0 /* NCMacros.h */,
+				CD88822719922CB100DF4BC0 /* NCDBHandler.h */,
+				CD88822819922CB100DF4BC0 /* NCDBHandler.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		CD8882201992178800DF4BC0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CD888221199217D500DF4BC0 /* UIFont+NCAdditions.h */,
+				CD888222199217D500DF4BC0 /* UIFont+NCAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8881D919920BEE00DF4BC0 /* NotesAppHike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD88820619920BEE00DF4BC0 /* Build configuration list for PBXNativeTarget "NotesAppHike" */;
+			buildPhases = (
+				B6E588E063EC45348D77540C /* Check Pods Manifest.lock */,
+				CD8881D619920BEE00DF4BC0 /* Sources */,
+				CD8881D719920BEE00DF4BC0 /* Frameworks */,
+				CD8881D819920BEE00DF4BC0 /* Resources */,
+				C593156078A545D3BBC2D769 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotesAppHike;
+			productName = NotesAppHike;
+			productReference = CD8881DA19920BEE00DF4BC0 /* NotesAppHike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8881F419920BEE00DF4BC0 /* NotesAppHikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD88820919920BEE00DF4BC0 /* Build configuration list for PBXNativeTarget "NotesAppHikeTests" */;
+			buildPhases = (
+				CD8881F119920BEE00DF4BC0 /* Sources */,
+				CD8881F219920BEE00DF4BC0 /* Frameworks */,
+				CD8881F319920BEE00DF4BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8881FB19920BEE00DF4BC0 /* PBXTargetDependency */,
+			);
+			name = NotesAppHikeTests;
+			productName = NotesAppHikeTests;
+			productReference = CD8881F519920BEE00DF4BC0 /* NotesAppHikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8881D219920BEE00DF4BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KaranKumar;
+				TargetAttributes = {
+					CD8881F419920BEE00DF4BC0 = {
+						TestTargetID = CD8881D919920BEE00DF4BC0;
+					};
+				};
+			};
+			buildConfigurationList = CD8881D519920BEE00DF4BC0 /* Build configuration list for PBXProject "NotesAppHike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD8881D119920BEE00DF4BC0;
+			productRefGroup = CD8881DB19920BEE00DF4BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8881D919920BEE00DF4BC0 /* NotesAppHike */,
+				CD8881F419920BEE00DF4BC0 /* NotesAppHikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8881D819920BEE00DF4BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8881E819920BEE00DF4BC0 /* InfoPlist.strings in Resources */,
+				CD8881F019920BEE00DF4BC0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8881F319920BEE00DF4BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD88820119920BEE00DF4BC0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6E588E063EC45348D77540C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C593156078A545D3BBC2D769 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8881D619920BEE00DF4BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD88822919922CB100DF4BC0 /* NCDBHandler.m in Sources */,
+				CD88821F199215B400DF4BC0 /* NCNotesListCell.m in Sources */,
+				CD8882161992108500DF4BC0 /* NCColors.m in Sources */,
+				CD88821319920ED800DF4BC0 /* NCNotesListViewController.m in Sources */,
+				CD88821C199213F800DF4BC0 /* NCNoteObject.m in Sources */,
+				CD88822619921F5F00DF4BC0 /* NCCreateEditNoteController.m in Sources */,
+				CD8881EA19920BEE00DF4BC0 /* main.m in Sources */,
+				CD8881EE19920BEE00DF4BC0 /* NCAppDelegate.m in Sources */,
+				CD88823019923E2900DF4BC0 /* NCReadOnlyController.m in Sources */,
+				CD888223199217D500DF4BC0 /* UIFont+NCAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8881F119920BEE00DF4BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD88820319920BEE00DF4BC0 /* NotesAppHikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8881FB19920BEE00DF4BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8881D919920BEE00DF4BC0 /* NotesAppHike */;
+			targetProxy = CD8881FA19920BEE00DF4BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD8881E619920BEE00DF4BC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8881E719920BEE00DF4BC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD8881FF19920BEE00DF4BC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD88820019920BEE00DF4BC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD88820419920BEE00DF4BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD88820519920BEE00DF4BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD88820719920BEE00DF4BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812F609DABFC42CCA2301897 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotesAppHike/NotesAppHike-Prefix.pch";
+				INFOPLIST_FILE = "NotesAppHike/NotesAppHike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD88820819920BEE00DF4BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812F609DABFC42CCA2301897 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotesAppHike/NotesAppHike-Prefix.pch";
+				INFOPLIST_FILE = "NotesAppHike/NotesAppHike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD88820A19920BEE00DF4BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NotesAppHike.app/NotesAppHike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotesAppHike/NotesAppHike-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NotesAppHikeTests/NotesAppHikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD88820B19920BEE00DF4BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NotesAppHike.app/NotesAppHike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotesAppHike/NotesAppHike-Prefix.pch";
+				INFOPLIST_FILE = "NotesAppHikeTests/NotesAppHikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8881D519920BEE00DF4BC0 /* Build configuration list for PBXProject "NotesAppHike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD88820419920BEE00DF4BC0 /* Debug */,
+				CD88820519920BEE00DF4BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD88820619920BEE00DF4BC0 /* Build configuration list for PBXNativeTarget "NotesAppHike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD88820719920BEE00DF4BC0 /* Debug */,
+				CD88820819920BEE00DF4BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD88820919920BEE00DF4BC0 /* Build configuration list for PBXNativeTarget "NotesAppHikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD88820A19920BEE00DF4BC0 /* Debug */,
+				CD88820B19920BEE00DF4BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8881D219920BEE00DF4BC0 /* Project object */;
+}
